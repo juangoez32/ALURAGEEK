@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "name": "Tenis Nike",
+            "price": "800.000",
+            "imageUrl": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/03/03/16462974829783.jpg"
+        },
+
+        {
+            "name": "Tenis puma",
+            "price": "700.000",
+            "imageUrl": "https://i.ebayimg.com/thumbs/images/g/OksAAOSwQDZkgDzr/s-l640.jpg"
+        },
+
+        {
+            "name": "Tenis rebook",
+            "price": "700.000",
+            "imageUrl": "https://reebokcol.vtexassets.com/arquivos/EntrenamientoFuncional.jpg"
+        },
+
+        {
+            "name": "Tenis adidas",
+            "price": "700.000",
+            "imageUrl": "https://i.pinimg.com/236x/a1/4d/70/a14d707d41d45b9548e5d8d12f74d7b1.jpg"
+        }
+
+    ]
+}

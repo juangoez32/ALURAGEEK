@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  #container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #form-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  #form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #form-container label {
+    margin-bottom: 10px;
+  }
+  
+  #form-container input, #form-container select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #form-container button {
+    padding: 8px 15px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #records-container {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .record {
+    width: calc(33.33% - 20px);
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .record img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .record button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #container {
+      flex-direction: column;
+    }
+    .record {
+      width: calc(100% - 20px);
+    }
+  }
+  
+  #form-container img {
+    margin: 50px 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 55px;
+  }
+  
