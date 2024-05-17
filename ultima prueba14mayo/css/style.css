@@ -58,13 +58,15 @@ header, footer {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 20px; /* Añadido para que los productos no estén pegados a los bordes */
 }
 
 .record {
-  width: calc(33.33% - 20px);
+  width: calc(33.33% - 20px); /* Ajustado para mantener tres columnas con margen */
   background-color: #f9f9f9;
   padding: 10px;
   border-radius: 5px;
+  margin-bottom: 20px; /* Añadido para crear espacio entre filas */
 }
 
 .record img {
@@ -89,9 +91,7 @@ footer {
   color: white;
   text-align: center;
   padding: 10px 0;
-  position: sticky;
-  bottom: 0;
-  left: 0;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {
